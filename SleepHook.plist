@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>SleepHook</string>
+	<key>Disabled</key>
+	<false/>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/Users/0xffff/bin/SleepHook</string>
+		<string>-w/Users/0xffff/doOnWake.sh</string>
+		<string>-s/Users/0xffff/doOnSleep.sh</string>
+	</array>
+	<key>KeepAlive</key>
+	<true/>
+</dict>
+</plist>
